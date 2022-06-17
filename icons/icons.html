@@ -1,0 +1,1612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>icons</title>
+    <style>
+
+        @import url("http://fonts.googleapis.com/css?family=Nixie+One");
+
+        body {
+            font-family: 'Nixie One', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+            padding-bottom: 100px;
+            background-color: #e16544;
+            background-image: -moz-linear-gradient(20deg, rgba(243, 56, 150, .6), rgba(243, 184, 56, .6));
+            background-image: -webkit-linear-gradient(20deg, rgba(243, 56, 150, .6), rgba(243, 184, 56, .6));
+            background-image: -o-linear-gradient(20deg, rgba(243, 56, 150, .6), rgba(243, 184, 56, .6));
+            background-image: -ms-linear-gradient(20deg, rgba(243, 56, 150, .6), rgba(243, 184, 56, .6));
+            background-image: linear-gradient(20deg, rgba(243, 56, 150, .6), rgba(243, 184, 56, .6));
+        }
+
+        .preview, .label {
+            -webkit-transition: color .2s, background .2s;
+            -moz-transition: color .2s, background .2s;
+            -ms-transition: color .2s, background .2s;
+            -o-transition: color .2s, background .2s;
+            transition: color .2s, background .2s;
+        }
+
+        .preview {
+            width: 100px;
+            display: inline-block;
+            margin: 5px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+        }
+
+        .preview .inner {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+        }
+
+        .preview .inner i {
+            line-height: 80px;
+            font-size: 50px;
+        }
+
+        h1, i {
+            -webkit-text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+            -moz-text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+            text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .label {
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 10px;
+            font-family: Monaco, monospace;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-border-radius: 0 0 3px 3px;
+            -moz-border-radius: 0 0 3px 3px;
+            border-radius: 0 0 3px 3px;
+            margin-bottom: 10px;
+            color: rgba(255, 255, 255, .5);
+        }
+
+        .preview:hover {
+            background: rgba(255, 255, 255, .1);
+        }
+
+        .preview:hover .label {
+            color: rgba(255, 255, 255, .8);
+        }
+
+        footer {
+            position: fixed;
+            padding: 20px;
+            left: 0;
+            bottom: 0;
+            box-sizing: border-box;
+            width: 100%;
+            background: rgba(0, 0, 0, .9);
+            color: rgba(255, 255, 255, .6);
+        }
+
+        a, .heart {
+            color: #e96132;
+            text-decoration: none;
+        }
+
+        footer img {
+            height: 25px;
+            margin: -7px 0 -7px 5px;
+        }
+
+        .page {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative;
+            z-index: 2;
+        }
+
+        @font-face {
+    font-family: "icons";
+    src: url("./icons.eot?0e1f28a1dd745d955dafda96a9cb65af?#iefix") format("embedded-opentype"),
+url("./icons.woff2?0e1f28a1dd745d955dafda96a9cb65af") format("woff2"),
+url("./icons.woff?0e1f28a1dd745d955dafda96a9cb65af") format("woff"),
+url("./icons.ttf?0e1f28a1dd745d955dafda96a9cb65af") format("truetype"),
+url("./icons.svg?0e1f28a1dd745d955dafda96a9cb65af#icons") format("svg");
+}
+
+i {
+    line-height: 1;
+}
+
+i:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    vertical-align: top;
+}
+
+.icon-contact-envelope:before {
+    content: "\f101";
+}
+.icon-contact-linkedin:before {
+    content: "\f102";
+}
+.icon-tech-activemq:before {
+    content: "\f103";
+}
+.icon-tech-actix:before {
+    content: "\f104";
+}
+.icon-tech-adobe:before {
+    content: "\f105";
+}
+.icon-tech-agile:before {
+    content: "\f106";
+}
+.icon-tech-akka:before {
+    content: "\f107";
+}
+.icon-tech-android:before {
+    content: "\f108";
+}
+.icon-tech-angular:before {
+    content: "\f109";
+}
+.icon-tech-ansible:before {
+    content: "\f10a";
+}
+.icon-tech-apache:before {
+    content: "\f10b";
+}
+.icon-tech-apigee:before {
+    content: "\f10c";
+}
+.icon-tech-apollo:before {
+    content: "\f10d";
+}
+.icon-tech-asp:before {
+    content: "\f10e";
+}
+.icon-tech-aurelia:before {
+    content: "\f10f";
+}
+.icon-tech-aws:before {
+    content: "\f110";
+}
+.icon-tech-backbone:before {
+    content: "\f111";
+}
+.icon-tech-bash:before {
+    content: "\f112";
+}
+.icon-tech-bootstrap:before {
+    content: "\f113";
+}
+.icon-tech-bower:before {
+    content: "\f114";
+}
+.icon-tech-c:before {
+    content: "\f115";
+}
+.icon-tech-chef:before {
+    content: "\f116";
+}
+.icon-tech-clojure:before {
+    content: "\f117";
+}
+.icon-tech-codeigniter:before {
+    content: "\f118";
+}
+.icon-tech-coffeescript:before {
+    content: "\f119";
+}
+.icon-tech-confluent:before {
+    content: "\f11a";
+}
+.icon-tech-cplusplus:before {
+    content: "\f11b";
+}
+.icon-tech-csharp:before {
+    content: "\f11c";
+}
+.icon-tech-css3:before {
+    content: "\f11d";
+}
+.icon-tech-d3:before {
+    content: "\f11e";
+}
+.icon-tech-datadog:before {
+    content: "\f11f";
+}
+.icon-tech-diesel:before {
+    content: "\f120";
+}
+.icon-tech-django:before {
+    content: "\f121";
+}
+.icon-tech-docker:before {
+    content: "\f122";
+}
+.icon-tech-drupal:before {
+    content: "\f123";
+}
+.icon-tech-dynatrace:before {
+    content: "\f124";
+}
+.icon-tech-elasticsearch:before {
+    content: "\f125";
+}
+.icon-tech-elixir:before {
+    content: "\f126";
+}
+.icon-tech-erlang:before {
+    content: "\f127";
+}
+.icon-tech-expressjs:before {
+    content: "\f128";
+}
+.icon-tech-foundation:before {
+    content: "\f129";
+}
+.icon-tech-git:before {
+    content: "\f12a";
+}
+.icon-tech-github:before {
+    content: "\f12b";
+}
+.icon-tech-go:before {
+    content: "\f12c";
+}
+.icon-tech-graphql:before {
+    content: "\f12d";
+}
+.icon-tech-groovy:before {
+    content: "\f12e";
+}
+.icon-tech-grunt:before {
+    content: "\f12f";
+}
+.icon-tech-gulp:before {
+    content: "\f130";
+}
+.icon-tech-hadoop:before {
+    content: "\f131";
+}
+.icon-tech-handlebars:before {
+    content: "\f132";
+}
+.icon-tech-haskell:before {
+    content: "\f133";
+}
+.icon-tech-heroku:before {
+    content: "\f134";
+}
+.icon-tech-html5:before {
+    content: "\f135";
+}
+.icon-tech-ibm:before {
+    content: "\f136";
+}
+.icon-tech-illustrator:before {
+    content: "\f137";
+}
+.icon-tech-inkscape:before {
+    content: "\f138";
+}
+.icon-tech-ios:before {
+    content: "\f139";
+}
+.icon-tech-java:before {
+    content: "\f13a";
+}
+.icon-tech-javascript:before {
+    content: "\f13b";
+}
+.icon-tech-jenkins:before {
+    content: "\f13c";
+}
+.icon-tech-jquery:before {
+    content: "\f13d";
+}
+.icon-tech-js:before {
+    content: "\f13e";
+}
+.icon-tech-jsp:before {
+    content: "\f13f";
+}
+.icon-tech-kafka:before {
+    content: "\f140";
+}
+.icon-tech-kubernetes:before {
+    content: "\f141";
+}
+.icon-tech-lavarel:before {
+    content: "\f142";
+}
+.icon-tech-less:before {
+    content: "\f143";
+}
+.icon-tech-lisp:before {
+    content: "\f144";
+}
+.icon-tech-maven:before {
+    content: "\f145";
+}
+.icon-tech-meteor:before {
+    content: "\f146";
+}
+.icon-tech-minikube:before {
+    content: "\f147";
+}
+.icon-tech-mocha:before {
+    content: "\f148";
+}
+.icon-tech-mongo:before {
+    content: "\f149";
+}
+.icon-tech-mulesoft:before {
+    content: "\f14a";
+}
+.icon-tech-mustache:before {
+    content: "\f14b";
+}
+.icon-tech-mvc:before {
+    content: "\f14c";
+}
+.icon-tech-mysql:before {
+    content: "\f14d";
+}
+.icon-tech-nest:before {
+    content: "\f14e";
+}
+.icon-tech-net:before {
+    content: "\f14f";
+}
+.icon-tech-nginx:before {
+    content: "\f150";
+}
+.icon-tech-nodejs:before {
+    content: "\f151";
+}
+.icon-tech-nosql:before {
+    content: "\f152";
+}
+.icon-tech-oracle:before {
+    content: "\f153";
+}
+.icon-tech-pandas:before {
+    content: "\f154";
+}
+.icon-tech-perl:before {
+    content: "\f155";
+}
+.icon-tech-photoshop:before {
+    content: "\f156";
+}
+.icon-tech-php:before {
+    content: "\f157";
+}
+.icon-tech-postgres:before {
+    content: "\f158";
+}
+.icon-tech-powershell:before {
+    content: "\f159";
+}
+.icon-tech-puppet:before {
+    content: "\f15a";
+}
+.icon-tech-python:before {
+    content: "\f15b";
+}
+.icon-tech-r:before {
+    content: "\f15c";
+}
+.icon-tech-rails:before {
+    content: "\f15d";
+}
+.icon-tech-react:before {
+    content: "\f15e";
+}
+.icon-tech-redis:before {
+    content: "\f15f";
+}
+.icon-tech-ruby:before {
+    content: "\f160";
+}
+.icon-tech-rust:before {
+    content: "\f161";
+}
+.icon-tech-sass:before {
+    content: "\f162";
+}
+.icon-tech-scala:before {
+    content: "\f163";
+}
+.icon-tech-socketio:before {
+    content: "\f164";
+}
+.icon-tech-spark:before {
+    content: "\f165";
+}
+.icon-tech-spring:before {
+    content: "\f166";
+}
+.icon-tech-sql-server:before {
+    content: "\f167";
+}
+.icon-tech-sql:before {
+    content: "\f168";
+}
+.icon-tech-stylus:before {
+    content: "\f169";
+}
+.icon-tech-svg:before {
+    content: "\f16a";
+}
+.icon-tech-swagger:before {
+    content: "\f16b";
+}
+.icon-tech-swift:before {
+    content: "\f16c";
+}
+.icon-tech-symphony:before {
+    content: "\f16d";
+}
+.icon-tech-tokio:before {
+    content: "\f16e";
+}
+.icon-tech-tomcat:before {
+    content: "\f16f";
+}
+.icon-tech-tortoisesvn:before {
+    content: "\f170";
+}
+.icon-tech-travis:before {
+    content: "\f171";
+}
+.icon-tech-typescript:before {
+    content: "\f172";
+}
+.icon-tech-unity:before {
+    content: "\f173";
+}
+.icon-tech-unix:before {
+    content: "\f174";
+}
+.icon-tech-vue:before {
+    content: "\f175";
+}
+.icon-tech-websockets:before {
+    content: "\f176";
+}
+.icon-tech-windows:before {
+    content: "\f177";
+}
+.icon-tech-yii:before {
+    content: "\f178";
+}
+.icon-tech-zend:before {
+    content: "\f179";
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="page">
+
+        <h1>Tech icons set</h1>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-contact-envelope"></i>
+                </span>
+                <br>
+                <span class='label'>contact-envelope</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-contact-linkedin"></i>
+                </span>
+                <br>
+                <span class='label'>contact-linkedin</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-activemq"></i>
+                </span>
+                <br>
+                <span class='label'>tech-activemq</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-actix"></i>
+                </span>
+                <br>
+                <span class='label'>tech-actix</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-adobe"></i>
+                </span>
+                <br>
+                <span class='label'>tech-adobe</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-agile"></i>
+                </span>
+                <br>
+                <span class='label'>tech-agile</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-akka"></i>
+                </span>
+                <br>
+                <span class='label'>tech-akka</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-android"></i>
+                </span>
+                <br>
+                <span class='label'>tech-android</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-angular"></i>
+                </span>
+                <br>
+                <span class='label'>tech-angular</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-ansible"></i>
+                </span>
+                <br>
+                <span class='label'>tech-ansible</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-apache"></i>
+                </span>
+                <br>
+                <span class='label'>tech-apache</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-apigee"></i>
+                </span>
+                <br>
+                <span class='label'>tech-apigee</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-apollo"></i>
+                </span>
+                <br>
+                <span class='label'>tech-apollo</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-asp"></i>
+                </span>
+                <br>
+                <span class='label'>tech-asp</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-aurelia"></i>
+                </span>
+                <br>
+                <span class='label'>tech-aurelia</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-aws"></i>
+                </span>
+                <br>
+                <span class='label'>tech-aws</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-backbone"></i>
+                </span>
+                <br>
+                <span class='label'>tech-backbone</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-bash"></i>
+                </span>
+                <br>
+                <span class='label'>tech-bash</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-bootstrap"></i>
+                </span>
+                <br>
+                <span class='label'>tech-bootstrap</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-bower"></i>
+                </span>
+                <br>
+                <span class='label'>tech-bower</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-c"></i>
+                </span>
+                <br>
+                <span class='label'>tech-c</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-chef"></i>
+                </span>
+                <br>
+                <span class='label'>tech-chef</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-clojure"></i>
+                </span>
+                <br>
+                <span class='label'>tech-clojure</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-codeigniter"></i>
+                </span>
+                <br>
+                <span class='label'>tech-codeigniter</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-coffeescript"></i>
+                </span>
+                <br>
+                <span class='label'>tech-coffeescript</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-confluent"></i>
+                </span>
+                <br>
+                <span class='label'>tech-confluent</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-cplusplus"></i>
+                </span>
+                <br>
+                <span class='label'>tech-cplusplus</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-csharp"></i>
+                </span>
+                <br>
+                <span class='label'>tech-csharp</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-css3"></i>
+                </span>
+                <br>
+                <span class='label'>tech-css3</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-d3"></i>
+                </span>
+                <br>
+                <span class='label'>tech-d3</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-datadog"></i>
+                </span>
+                <br>
+                <span class='label'>tech-datadog</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-diesel"></i>
+                </span>
+                <br>
+                <span class='label'>tech-diesel</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-django"></i>
+                </span>
+                <br>
+                <span class='label'>tech-django</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-docker"></i>
+                </span>
+                <br>
+                <span class='label'>tech-docker</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-drupal"></i>
+                </span>
+                <br>
+                <span class='label'>tech-drupal</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-dynatrace"></i>
+                </span>
+                <br>
+                <span class='label'>tech-dynatrace</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-elasticsearch"></i>
+                </span>
+                <br>
+                <span class='label'>tech-elasticsearch</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-elixir"></i>
+                </span>
+                <br>
+                <span class='label'>tech-elixir</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-erlang"></i>
+                </span>
+                <br>
+                <span class='label'>tech-erlang</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-expressjs"></i>
+                </span>
+                <br>
+                <span class='label'>tech-expressjs</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-foundation"></i>
+                </span>
+                <br>
+                <span class='label'>tech-foundation</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-git"></i>
+                </span>
+                <br>
+                <span class='label'>tech-git</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-github"></i>
+                </span>
+                <br>
+                <span class='label'>tech-github</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-go"></i>
+                </span>
+                <br>
+                <span class='label'>tech-go</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-graphql"></i>
+                </span>
+                <br>
+                <span class='label'>tech-graphql</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-groovy"></i>
+                </span>
+                <br>
+                <span class='label'>tech-groovy</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-grunt"></i>
+                </span>
+                <br>
+                <span class='label'>tech-grunt</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-gulp"></i>
+                </span>
+                <br>
+                <span class='label'>tech-gulp</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-hadoop"></i>
+                </span>
+                <br>
+                <span class='label'>tech-hadoop</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-handlebars"></i>
+                </span>
+                <br>
+                <span class='label'>tech-handlebars</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-haskell"></i>
+                </span>
+                <br>
+                <span class='label'>tech-haskell</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-heroku"></i>
+                </span>
+                <br>
+                <span class='label'>tech-heroku</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-html5"></i>
+                </span>
+                <br>
+                <span class='label'>tech-html5</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-ibm"></i>
+                </span>
+                <br>
+                <span class='label'>tech-ibm</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-illustrator"></i>
+                </span>
+                <br>
+                <span class='label'>tech-illustrator</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-inkscape"></i>
+                </span>
+                <br>
+                <span class='label'>tech-inkscape</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-ios"></i>
+                </span>
+                <br>
+                <span class='label'>tech-ios</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-java"></i>
+                </span>
+                <br>
+                <span class='label'>tech-java</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-javascript"></i>
+                </span>
+                <br>
+                <span class='label'>tech-javascript</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-jenkins"></i>
+                </span>
+                <br>
+                <span class='label'>tech-jenkins</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-jquery"></i>
+                </span>
+                <br>
+                <span class='label'>tech-jquery</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-js"></i>
+                </span>
+                <br>
+                <span class='label'>tech-js</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-jsp"></i>
+                </span>
+                <br>
+                <span class='label'>tech-jsp</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-kafka"></i>
+                </span>
+                <br>
+                <span class='label'>tech-kafka</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-kubernetes"></i>
+                </span>
+                <br>
+                <span class='label'>tech-kubernetes</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-lavarel"></i>
+                </span>
+                <br>
+                <span class='label'>tech-lavarel</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-less"></i>
+                </span>
+                <br>
+                <span class='label'>tech-less</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-lisp"></i>
+                </span>
+                <br>
+                <span class='label'>tech-lisp</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-maven"></i>
+                </span>
+                <br>
+                <span class='label'>tech-maven</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-meteor"></i>
+                </span>
+                <br>
+                <span class='label'>tech-meteor</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-minikube"></i>
+                </span>
+                <br>
+                <span class='label'>tech-minikube</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-mocha"></i>
+                </span>
+                <br>
+                <span class='label'>tech-mocha</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-mongo"></i>
+                </span>
+                <br>
+                <span class='label'>tech-mongo</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-mulesoft"></i>
+                </span>
+                <br>
+                <span class='label'>tech-mulesoft</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-mustache"></i>
+                </span>
+                <br>
+                <span class='label'>tech-mustache</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-mvc"></i>
+                </span>
+                <br>
+                <span class='label'>tech-mvc</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-mysql"></i>
+                </span>
+                <br>
+                <span class='label'>tech-mysql</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-nest"></i>
+                </span>
+                <br>
+                <span class='label'>tech-nest</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-net"></i>
+                </span>
+                <br>
+                <span class='label'>tech-net</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-nginx"></i>
+                </span>
+                <br>
+                <span class='label'>tech-nginx</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-nodejs"></i>
+                </span>
+                <br>
+                <span class='label'>tech-nodejs</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-nosql"></i>
+                </span>
+                <br>
+                <span class='label'>tech-nosql</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-oracle"></i>
+                </span>
+                <br>
+                <span class='label'>tech-oracle</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-pandas"></i>
+                </span>
+                <br>
+                <span class='label'>tech-pandas</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-perl"></i>
+                </span>
+                <br>
+                <span class='label'>tech-perl</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-photoshop"></i>
+                </span>
+                <br>
+                <span class='label'>tech-photoshop</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-php"></i>
+                </span>
+                <br>
+                <span class='label'>tech-php</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-postgres"></i>
+                </span>
+                <br>
+                <span class='label'>tech-postgres</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-powershell"></i>
+                </span>
+                <br>
+                <span class='label'>tech-powershell</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-puppet"></i>
+                </span>
+                <br>
+                <span class='label'>tech-puppet</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-python"></i>
+                </span>
+                <br>
+                <span class='label'>tech-python</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-r"></i>
+                </span>
+                <br>
+                <span class='label'>tech-r</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-rails"></i>
+                </span>
+                <br>
+                <span class='label'>tech-rails</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-react"></i>
+                </span>
+                <br>
+                <span class='label'>tech-react</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-redis"></i>
+                </span>
+                <br>
+                <span class='label'>tech-redis</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-ruby"></i>
+                </span>
+                <br>
+                <span class='label'>tech-ruby</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-rust"></i>
+                </span>
+                <br>
+                <span class='label'>tech-rust</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-sass"></i>
+                </span>
+                <br>
+                <span class='label'>tech-sass</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-scala"></i>
+                </span>
+                <br>
+                <span class='label'>tech-scala</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-socketio"></i>
+                </span>
+                <br>
+                <span class='label'>tech-socketio</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-spark"></i>
+                </span>
+                <br>
+                <span class='label'>tech-spark</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-spring"></i>
+                </span>
+                <br>
+                <span class='label'>tech-spring</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-sql-server"></i>
+                </span>
+                <br>
+                <span class='label'>tech-sql-server</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-sql"></i>
+                </span>
+                <br>
+                <span class='label'>tech-sql</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-stylus"></i>
+                </span>
+                <br>
+                <span class='label'>tech-stylus</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-svg"></i>
+                </span>
+                <br>
+                <span class='label'>tech-svg</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-swagger"></i>
+                </span>
+                <br>
+                <span class='label'>tech-swagger</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-swift"></i>
+                </span>
+                <br>
+                <span class='label'>tech-swift</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-symphony"></i>
+                </span>
+                <br>
+                <span class='label'>tech-symphony</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-tokio"></i>
+                </span>
+                <br>
+                <span class='label'>tech-tokio</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-tomcat"></i>
+                </span>
+                <br>
+                <span class='label'>tech-tomcat</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-tortoisesvn"></i>
+                </span>
+                <br>
+                <span class='label'>tech-tortoisesvn</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-travis"></i>
+                </span>
+                <br>
+                <span class='label'>tech-travis</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-typescript"></i>
+                </span>
+                <br>
+                <span class='label'>tech-typescript</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-unity"></i>
+                </span>
+                <br>
+                <span class='label'>tech-unity</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-unix"></i>
+                </span>
+                <br>
+                <span class='label'>tech-unix</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-vue"></i>
+                </span>
+                <br>
+                <span class='label'>tech-vue</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-websockets"></i>
+                </span>
+                <br>
+                <span class='label'>tech-websockets</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-windows"></i>
+                </span>
+                <br>
+                <span class='label'>tech-windows</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-yii"></i>
+                </span>
+                <br>
+                <span class='label'>tech-yii</span>
+            </div>
+
+
+            <div class="preview">
+                <span class="inner">
+                    <i class="icon-tech-zend"></i>
+                </span>
+                <br>
+                <span class='label'>tech-zend</span>
+            </div>
+
+
+        <footer>
+
+            <div class="credits">
+                Made with 
+                <span class="heart">&#10084;</span>
+                 by 
+                <a href="https://www.workshape.io", target="_blank"><img src="https://www.workshape.io/images/logo/header.svg"></a>
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.eot?ff844df22e49f1d3c445680f589915df?#iefix") format("embedded-opentype"),
+url("./icons.woff2?ff844df22e49f1d3c445680f589915df") format("woff2"),
+url("./icons.woff?ff844df22e49f1d3c445680f589915df") format("woff"),
+url("./icons.ttf?ff844df22e49f1d3c445680f589915df") format("truetype"),
+url("./icons.svg?ff844df22e49f1d3c445680f589915df#icons") format("svg");
+}
+
+i {
+    line-height: 1;
+}
+
+i:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    vertical-align: top;
+}
+
+.icon-contact-envelope:before {
+    content: "\f101";
+}
+.icon-contact-linkedin:before {
+    content: "\f102";
+}
+.icon-tech-activemq:before {
+    content: "\f103";
+}
+.icon-tech-actix:before {
+    content: "\f104";
+}
+.icon-tech-adobe:before {
+    content: "\f105";
+}
+.icon-tech-agile:before {
+    content: "\f106";
+}
+.icon-tech-akka:before {
+    content: "\f107";
+}
+.icon-tech-android:before {
+    content: "\f108";
+}
+.icon-tech-angular:before {
+    content: "\f109";
+}
+.icon-tech-ansible:before {
+    content: "\f10a";
+}
+.icon-tech-apache:before {
+    content: "\f10b";
+}
+.icon-tech-apigee:before {
+    content: "\f10c";
+}
+.icon-tech-apollo:before {
+    content: "\f10d";
+}
+.icon-tech-asp:before {
+    content: "\f10e";
+}
+.icon-tech-aurelia:before {
+    content: "\f10f";
+}
+.icon-tech-aws:before {
+    content: "\f110";
+}
+.icon-tech-backbone:before {
+    content: "\f111";
+}
+.icon-tech-bash:before {
+    content: "\f112";
+}
+.icon-tech-bootstrap:before {
+    content: "\f113";
+}
+.icon-tech-bower:before {
+    content: "\f114";
+}
+.icon-tech-c:before {
+    content: "\f115";
+}
+.icon-tech-chef:before {
+    content: "\f116";
+}
+.icon-tech-clojure:before {
+    content: "\f117";
+}
+.icon-tech-codeigniter:before {
+    content: "\f118";
+}
+.icon-tech-coffeescript:before {
+    content: "\f119";
+}
+.icon-tech-confluent:before {
+    content: "\f11a";
+}
+.icon-tech-cplusplus:before {
+    content: "\f11b";
+}
+.icon-tech-csharp:before {
+    content: "\f11c";
+}
+.icon-tech-css3:before {
+    content: "\f11d";
+}
+.icon-tech-d3:before {
+    content: "\f11e";
+}
+.icon-tech-datadog:before {
+    content: "\f11f";
+}
+.icon-tech-diesel:before {
+    content: "\f120";
+}
+.icon-tech-django:before {
+    content: "\f121";
+}
+.icon-tech-docker:before {
+    content: "\f122";
+}
+.icon-tech-drupal:before {
+    content: "\f123";
+}
+.icon-tech-dynatrace:before {
+    content: "\f124";
+}
+.icon-tech-elasticsearch:before {
+    content: "\f125";
+}
+.icon-tech-elixir:before {
+    content: "\f126";
+}
+.icon-tech-erlang:before {
+    content: "\f127";
+}
+.icon-tech-expressjs:before {
+    content: "\f128";
+}
+.icon-tech-foundation:before {
+    content: "\f129";
+}
+.icon-tech-git:before {
+    content: "\f12a";
+}
+.icon-tech-github:before {
+    content: "\f12b";
+}
+.icon-tech-go:before {
+    content: "\f12c";
+}
+.icon-tech-graphql:before {
+    content: "\f12d";
+}
+.icon-tech-groovy:before {
+    content: "\f12e";
+}
+.icon-tech-grunt:before {
+    content: "\f12f";
+}
+.icon-tech-gulp:before {
+    content: "\f130";
+}
+.icon-tech-hadoop:before {
+    content: "\f131";
+}
+.icon-tech-handlebars:before {
+    content: "\f132";
+}
+.icon-tech-haskell:before {
+    content: "\f133";
+}
+.icon-tech-heroku:before {
+    content: "\f134";
+}
+.icon-tech-html5:before {
+    content: "\f135";
+}
+.icon-tech-ibm:before {
+    content: "\f136";
+}
+.icon-tech-illustrator:before {
+    content: "\f137";
+}
+.icon-tech-inkscape:before {
+    content: "\f138";
+}
+.icon-tech-ios:before {
+    content: "\f139";
+}
+.icon-tech-java:before {
+    content: "\f13a";
+}
+.icon-tech-javascript:before {
+    content: "\f13b";
+}
+.icon-tech-jenkins:before {
+    content: "\f13c";
+}
+.icon-tech-jquery:before {
+    content: "\f13d";
+}
+.icon-tech-js:before {
+    content: "\f13e";
+}
+.icon-tech-jsp:before {
+    content: "\f13f";
+}
+.icon-tech-kafka:before {
+    content: "\f140";
+}
+.icon-tech-kubernetes:before {
+    content: "\f141";
+}
+.icon-tech-lavarel:before {
+    content: "\f142";
+}
+.icon-tech-less:before {
+    content: "\f143";
+}
+.icon-tech-lisp:before {
+    content: "\f144";
+}
+.icon-tech-maven:before {
+    content: "\f145";
+}
+.icon-tech-meteor:before {
+    content: "\f146";
+}
+.icon-tech-minikube:before {
+    content: "\f147";
+}
+.icon-tech-mocha:before {
+    content: "\f148";
+}
+.icon-tech-mongo:before {
+    content: "\f149";
+}
+.icon-tech-mulesoft:before {
+    content: "\f14a";
+}
+.icon-tech-mustache:before {
+    content: "\f14b";
+}
+.icon-tech-mvc:before {
+    content: "\f14c";
+}
+.icon-tech-mysql:before {
+    content: "\f14d";
+}
+.icon-tech-nest:before {
+    content: "\f14e";
+}
+.icon-tech-net:before {
+    content: "\f14f";
+}
+.icon-tech-nginx:before {
+    content: "\f150";
+}
+.icon-tech-nodejs:before {
+    content: "\f151";
+}
+.icon-tech-nosql:before {
+    content: "\f152";
+}
+.icon-tech-oracle:before {
+    content: "\f153";
+}
+.icon-tech-pandas:before {
+    content: "\f154";
+}
+.icon-tech-perl:before {
+    content: "\f155";
+}
+.icon-tech-photoshop:before {
+    content: "\f156";
+}
+.icon-tech-php:before {
+    content: "\f157";
+}
+.icon-tech-postgres:before {
+    content: "\f158";
+}
+.icon-tech-powershell:before {
+    content: "\f159";
+}
+.icon-tech-puppet:before {
+    content: "\f15a";
+}
+.icon-tech-python:before {
+    content: "\f15b";
+}
+.icon-tech-r:before {
+    content: "\f15c";
+}
+.icon-tech-rails:before {
+    content: "\f15d";
+}
+.icon-tech-react:before {
+    content: "\f15e";
+}
+.icon-tech-redis:before {
+    content: "\f15f";
+}
+.icon-tech-ruby:before {
+    content: "\f160";
+}
+.icon-tech-rust:before {
+    content: "\f161";
+}
+.icon-tech-sass:before {
+    content: "\f162";
+}
+.icon-tech-scala:before {
+    content: "\f163";
+}
+.icon-tech-socketio:before {
+    content: "\f164";
+}
+.icon-tech-spark:before {
+    content: "\f165";
+}
+.icon-tech-spring:before {
+    content: "\f166";
+}
+.icon-tech-sql-server:before {
+    content: "\f167";
+}
+.icon-tech-sql:before {
+    content: "\f168";
+}
+.icon-tech-stylus:before {
+    content: "\f169";
+}
+.icon-tech-svg:before {
+    content: "\f16a";
+}
+.icon-tech-swagger:before {
+    content: "\f16b";
+}
+.icon-tech-swift:before {
+    content: "\f16c";
+}
+.icon-tech-symphony:before {
+    content: "\f16d";
+}
+.icon-tech-tokio:before {
+    content: "\f16e";
+}
+.icon-tech-tomcat:before {
+    content: "\f16f";
+}
+.icon-tech-tortoisesvn:before {
+    content: "\f170";
+}
+.icon-tech-travis:before {
+    content: "\f171";
+}
+.icon-tech-typescript:before {
+    content: "\f172";
+}
+.icon-tech-unity:before {
+    content: "\f173";
+}
+.icon-tech-unix:before {
+    content: "\f174";
+}
+.icon-tech-vue:before {
+    content: "\f175";
+}
+.icon-tech-websockets:before {
+    content: "\f176";
+}
+.icon-tech-windows:before {
+    content: "\f177";
+}
+.icon-tech-yii:before {
+    content: "\f178";
+}
+.icon-tech-zend:before {
+    content: "\f179";
+}
