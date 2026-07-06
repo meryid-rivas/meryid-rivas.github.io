@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Meryid Rivas – Software Engineer</title>
+<link rel="stylesheet" href="./css/styles.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <a href="#hero" id="navLogo" style="display:flex;align-items:center;gap:10px;text-decoration:none;opacity:0;pointer-events:none;transition:opacity .3s;">
+        <img id="navAvatar" src="./assets/avatar.jpg" alt="Meryid Rivas" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid var(--accent);"/>
+        <span style="font-weight:800;font-size:.9rem;color:var(--accent);letter-spacing:.5px;">Meryid Rivas</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about" data-i="nav_about">About</a></li>
+        <li><a href="#skills" data-i="nav_skills">Skills</a></li>
+        <li><a href="#experience" data-i="nav_exp">Experience</a></li>
+        <li><a href="#education" data-i="nav_edu">Education</a></li>
+        <li><a href="#contact" data-i="nav_contact">Contact</a></li>
+      </ul>
+      <div class="controls">
+        <button class="theme-toggle" onclick="toggleTheme()" id="themeBtn" title="Toggle theme">🌙</button>
+        <div class="lang-switcher">
+          <button class="lang-btn active" onclick="setLang('en')">EN</button>
+          <button class="lang-btn" onclick="setLang('es')">ES</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="up" onclick="scrollToTop()" title="Scroll to top">↑</div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div>
+        <div class="avatar-wrap">
+          <img id="avatarImg" src="./assets/avatar.jpg" alt="Meryid Rivas"/>
+        </div>
+        <div class="hero-tag" data-i="hero_tag">Open to full-time opportunities</div>
+        <h1>Meryid Rivas</h1>
+        <p style="font-size:1.1rem;font-weight:700;margin-bottom:10px;" data-i="hero_title">Full-Stack Software Engineer (backend-heavy)</span></p>
+        <p class="hero-sub" data-i="hero_sub">I'm seasoned building systems that actually hold up under pressure — from startup MVPs to scaleup full-product to mission-critical live broadcast infrastructure at CNN. I'm the kind of engineer who can jump from building a high-performance API to defining the cloud architecture for a new product, to mentoring a junior developer on their first collaboration.</p>
+        <div class="hero-badges">
+          <span class="badge highlight">Javascript / TypeScript</span>
+          <span class="badge highlight">Node.js</span>
+          <span class="badge highlight">React</span>
+          <span class="badge highlight">AWS</span>
+          <span class="badge" data-i="badge_distributed_systems">Distributed Systems</span>
+          <span class="badge" data-i="badge_cloud">Cloud-native Architecture</span>
+          <span class="badge" data-i="badge_event_driven">Event-driven Architecture</span>
+          <span class="badge" data-i="badge_microservices">Microservices</span>
+          <span class="badge">API</span>
+          <span class="badge" data-i="badge_ci_cd">CI/CD Pipelines</span>
+        </div>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary" data-i="cta_contact">Get in touch</a>
+          <a href="#experience" class="btn btn-outline" data-i="cta_exp">View Experience</a>
+          <a href="https://drive.google.com/file/d/1EmSeFKw5qMSXlOShFntn6pyNGiVdsUsN/view?usp=sharing" class="btn btn-outline" target="_blank"><span data-i="cta_cv">Download Resume</span></a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-stat"><div class="stat-num" data-i="stat_measure1">18 years</div><div class="stat-label" data-i="stat1">Experience</div></div>
+        <div class="hero-card-stat"><div class="stat-num" data-i="stat_measure2">12 years</div><div class="stat-label" data-i="stat2">Architecture-impact roles</div></div>
+        <div class="hero-card-stat"><div class="stat-num">1.000 x</div><div class="stat-label" data-i="stat3">Transaction growth delivered</div></div>
+        <div class="hero-card-stat"><div class="stat-num">40 %</div><div class="stat-label" data-i="stat4">Engineering velocity increase</div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner">
+      <h2 class="section-title" data-i="about_title"><span>About me</span></h2>
+      <div class="about-grid">
+        <div class="values-list">
+          <div class="value-item"><div class="value-icon"></div><div><div class="value-title" data-i="val1_t">Full-cycle Ownership</div><div class="value-desc" data-i="val1_d">From requirements and architecture through implementation, deployment, and production maintenance — with security and scalability built in.</div></div></div>
+          <div class="value-item"><div class="value-icon"></div><div><div class="value-title" data-i="val2_t">Outcome-driven</div><div class="value-desc" data-i="val2_d">I care about business impact, not just technology developed. Great architecture means nothing if it doesn't ship.</div></div></div>
+          <div class="value-item"><div class="value-icon"></div><div><div class="value-title" data-i="val3_t">Great communication with different stakeholders</div><div class="value-desc" data-i="val3_d">I'm a cross-functional collaborator. I translate between technical and non-technical, like product managers, languages fluently.</div></div></div>
+          <div class="value-item"><div class="value-icon"></div><div><div class="value-title" data-i="val4_t">I thrive in uncertainty environments</div><div class="value-desc" data-i="val4_d">Proven in high-ambiguity, early-stage environments — repeatedly the first senior hire brought in to bring architecture and process to fast-moving startups (Xepelin, Jooycar).</div></div></div>
+        </div>
+        <div class="values-list">
+          <div class="value-item"><div class="value-icon"></div><div><div class="value-title" data-i="val5_t">Value-driven Leadership</div><div class="value-desc" data-i="val5_d">Track record of translating business goals into technical roadmaps that measurably improve delivery speed and platform stability.</div></div></div>
+          <div class="value-item"><div class="value-icon"></div><div><div class="value-title" data-i="val6_t">Problem-driven over Tool-driven</div><div class="value-desc" data-i="val6_d">I choose architecture and tools based on what moves the product forward, not what's trendy.</div></div></div>
+          <div class="value-item"><div class="value-icon"></div><div><div class="value-title" data-i="val7_t">Team multiplier</div><div class="value-desc" data-i="val7_d">I raise the baseline of teams around me — through architecture blueprints, delivery improvements or just being available to unblock people.</div></div></div>
+          <div class="value-item"><div class="value-icon"></div><div><div class="value-title" data-i="val8_t">Adaptable across company sizes and stages</div><div class="value-desc" data-i="val8_d">Wide experience across diverse company sizes, from MVPs at startups, to Full-scale Product at scale-ups to enterprise-scale systems at organizations like Warner Bros Discovery (CNN).</div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-inner">
+      <h2 class="section-title" data-i="skills_title"><span>Skills</span></h2>
+      <div class="section-tag" data-i="skills_tag">Main Stack</div>
+      <div class="hero-badges">
+        <span class="badge highlight">Javascript / TypeScript</span>
+        <span class="badge highlight">Node.js</span>
+        <span class="badge highlight">React</span>
+        <span class="badge highlight">AWS</span>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card"><div class="skill-title" data-i="sk1">System Design</div><div class="skill-tags"><span class="stag" data-i="skill_dist_systems">Distributed Systems</span><span class="stag" data-i="skill_microservices">Microservices</span><span class="stag">REST API</span><span class="stag" data-i="skill_event_driven">Event-Driven Architecture</span><span class="stag">Modular Monolith</span><span class="stag" data-i="skill_cloud_arch">Cloud-native Architecture</span><span class="stag">AWS Well-Architected Framework</span></div></div>
+        <div class="skill-card"><div class="skill-title" data-i="sk2">Languages</div><div class="skill-tags"><span class="stag">JavaScript</span><span class="stag">TypeScript</span><span class="stag">Python</span><span class="stag">Rust</span><span class="stag">Java</span><span class="stag">Scala</span></div></div>
+        <div class="skill-card"><div class="skill-title" data-i="sk3">Data</div><div class="skill-tags"><span class="stag" data-i="skill_data_modeling">Data Modeling</span><span class="stag">SQL</span><span class="stag">NoSQL</span><span class="stag">ETL/ELT</span><span class="stag">Batch Data Processing</span><span class="stag">Realtime Data Processing</span><span class="stag">Spark</span><span class="stag">AWS Kinesis</span></div></div>
+        <div class="skill-card"><div class="skill-title" data-i="sk4">Storage</div><div class="skill-tags"><span class="stag">MySQL</span><span class="stag">PostgreSQL</span><span class="stag">MongoDB</span><span class="stag">Redis</span><span class="stag">ElasticSearch</span><span class="stag">AWS S3</span><span class="stag">AWS DynamoDB</span></div></div>
+        <div class="skill-card"><div class="skill-title" data-i="sk5">Infrastructure & DevOps</div><div class="skill-tags"><span class="stag">Docker</span><span class="stag" data-i="skill_ci_cd">CI/CD Pipeline</span><span class="stag">Infrastructure as Code (IaC)</span><span class="stag">Kubernetes</span><span class="stag">AWS CloudFormation</span><span class="stag">AWS CDK</span></div></div>
+        <div class="skill-card"><div class="skill-title" data-i="sk6">Cloud & Observability</div><div class="skill-tags"><span class="stag">Serverless Framework</span><span class="stag">AWS Lambda</span><span class="stag">AWS API Gateway</span><span class="stag">Datadog</span><span class="stag">Dynatrace</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-inner">
+      <h2 class="section-title" data-i="exp_title"><span>Professional Experience</span></h2>
+      <div>
+        <div class="exp-item">
+          <div class="exp-header">
+            <div class="exp-left"><div><div class="exp-company">Freelance Software Engineer</div></div></div>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <div class="exp-date">Jun 2025 – Currently</div>
+              <div class="exp-date">Remote</div>
+            </div>
+          </div>
+        </div>
+        <div class="exp-item">
+          <div class="exp-header">
+            <div class="exp-left"><div><div class="exp-company">Staff Software Engineer at Warner Bros. Discovery (CNN)</div><div class="exp-note" data-i="exp1_role">via Globant</div></div></div>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <div class="exp-date">Apr 2023 – Jun 2025</div>
+              <div class="exp-date">Remote</div>
+            </div>
+          </div>
+          <div class="exp-body open">
+            <ul>
+              <li data-i="exp1_1">Architected a mission-critical Ticker Automation System replacing error-prone manual workflows with seamless CMS ↔ Viz Flowics integration for live broadcast data-driven graphics.</li>
+              <li data-i="exp1_2">Engineered a high-availability serverless layer using AWS Lambda for real-time news data aggregation supporting live broadcasts.</li>
+              <li data-i="exp1_3">Defined full solution stack via AWS CloudFormation — Secrets Manager, CloudWatch observability, serverless resources.</li>
+              <li data-i="exp1_4">Implemented automated CI/CD pipelines via CodePipeline, CodeBuild, and CodeDeploy for rapid, safe production releases.</li>
+              <li data-i="exp1_5">Bridged broadcast engineering and digital teams, aligning technical roadmaps with live news production requirements.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="exp-item">
+          <div class="exp-header">
+            <div class="exp-left"><div><div class="exp-company">Staff Software Engineer / Architect at Xepelin</div></div></div>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <div class="exp-date">Jul 2022 – Nov 2022</div>
+              <div class="exp-date">Remote</div>
+            </div>
+          </div>
+          <div class="exp-body open">
+            <ul>
+              <li data-i="exp2_1">Led decoupling of a TypeScript monolith into event-driven microservices to support 10x user growth and 1000x transaction volume.</li>
+              <li data-i="exp2_2">Designed the Core Microservice Blueprint — Node.js + AWS CDK scaffold for production-ready serverless components.</li>
+              <li data-i="exp2_3">Spearheaded LocalStack adoption for local IaC testing, reducing deployment feedback loops across the org.</li>
+              <li data-i="exp2_4">Increased team velocity by 40% and improved developer retention by reducing architectural friction.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="exp-item">
+          <div class="exp-header">
+            <div class="exp-left"><div><div class="exp-company">Lead Consultant / Architect at Thoughtworks</div></div></div>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <div class="exp-date">Sep 2021 – Mar 2022</div>
+              <div class="exp-date">Remote</div>
+            </div>
+          </div>
+          <div class="exp-body open">
+            <ul>
+              <li data-i="exp3_1">Led 'Tower of Control' architectural strategy for Yape/BCP, Peru's leading superapp and largest national bank.</li>
+              <li data-i="exp3_2">Engineered integration patterns between high-velocity scale-up components and legacy banking systems with advanced observability.</li>
+              <li data-i="exp3_3">Built automated DORA Metrics processing framework for 100+ developer engineering teams at Walmart.</li>
+              <li data-i="exp3_4">Partnered with Walmart executive leadership to improve Developer Experience and build a Learning Climate based on DORA core model.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="exp-item">
+          <div class="exp-header">
+            <div class="exp-left"><div><div class="exp-company">Staff Software Developer & Architect at Jooycar</div></div></div>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <div class="exp-date">Dec 2018 – Jul 2021</div>
+              <div class="exp-date">Remote</div>
+            </div>
+          </div>
+          <div class="exp-body open">
+            <ul>
+              <li data-i="exp4_1">Architected the technical foundation enabling company expansion from Chile into Peru, Mexico, and the USA.</li>
+              <li data-i="exp4_2">Led end-to-end backend design for 'Fleetr' fleet SaaS — achieved 75% sales growth in the first year of US launch.</li>
+              <li data-i="exp4_3">Re-engineered core IoT ingestion engines using Rust and Event-Driven Microservices on AWS for high-frequency telematics data.</li>
+              <li data-i="exp4_4">Designed mission-critical data pipelines using AWS Kinesis, SNS, and SQS for real-time anomaly detection.</li>
+              <li data-i="exp4_5">Collaborated directly with CEO, CTO, and CPO to align technical roadmaps with product discovery goals.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-inner">
+      <h2 class="section-title" data-i="edu_title"><span>Education & Certifications</span></h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-badge">AWS</div>
+          <div class="edu-title" data-i="cert1">AWS Certified Cloud Practitioner</div>
+          <div class="edu-org">Amazon Web Services</div>
+          <div class="edu-org">2021</div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-badge">Oracle</div>
+          <div class="edu-title" data-i="cert2">Java SE 7 Programmer</div>
+          <div class="edu-org">Oracle Certified Associate</div>
+          <div class="edu-org">2015</div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-badge" data-i="edu_badge">Degree</div>
+          <div class="edu-title" data-i="cert3">Senior Technician in Computing</div>
+          <div class="edu-org">IUT Dr. Federico Rivero Palacios</div>
+          <div class="edu-org">Caracas, Venezuela · 2007</div>
+        </div>
+      </div>
+      <h3 style="font-size:1.1rem;font-weight:800;margin-bottom:20px;margin-top:8px;" data-i="lang_title">Languages</h3>
+      <div class="lang-item"><div class="lang-name" data-i="lang_en">English</div><div class="lang-bar-wrap"><div class="lang-bar" style="width:82%"></div></div><div class="lang-level" data-i="eng_level">Professional Proficiency (B2/C1)</div></div>
+      <div class="lang-item"><div class="lang-name" data-i="lang_es">Español</div><div class="lang-bar-wrap"><div class="lang-bar" style="width:100%"></div></div><div class="lang-level" data-i="esp_level">Native</div></div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner">
+      <h2 class="section-title" data-i="contact_title"><span>Get in Touch</span></h2>
+      <div class="contact-wrap">
+        <!-- LEFT: info + cal -->
+        <div class="contact-left">
+          <h3 data-i="contact_h3">Open to new challenges.</h3>
+          <p data-i="contact_p">I thrive in distributed, high-ambiguity environments. If you're building something ambitious and need a senior engineer who can also think in systems — let's talk.</p>
+          <div class="contact-links">
+            <a href="mailto:meryid.rivas@gmail.com" class="contact-link"><div class="contact-link-icon">✉️</div>meryid.rivas@gmail.com</a>
+            <a href="https://linkedin.com/in/meryid-rivas" target="_blank" class="contact-link">
+              <div class="contact-link-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="#0077B5">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </div>
+              linkedin.com/in/meryid-rivas
+            </a>
+          </div>
+          <a href="https://cal.com/meryid-rivas/30min" target="_blank" class="btn-cal"><span data-i="cal_btn">Book a call</span></a>
+        </div>
+        <!-- RIGHT: form -->
+        <div>
+          <p style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:16px;" data-i="form_title">Send a message</p>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label data-i="form_name">Name</label>
+              <input type="text" name="name" required placeholder="Jane Smith"/>
+            </div>
+            <div class="form-group">
+              <label data-i="form_email">Email</label>
+              <input type="email" name="email" required placeholder="jane@company.com"/>
+            </div>
+            <div class="form-group">
+              <label data-i="form_msg">Message</label>
+              <textarea name="message" required placeholder="Tell me about your team and what you're building..."></textarea>
+            </div>
+            <button type="submit" class="form-submit" data-i="form_send">Send Message</button>
+            <div class="form-msg" id="formMsg"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p data-i="footer">Designed with <span>♥</span> · Meryid Rivas © 2026 · Santiago, Chile</p>
+  </footer>
+
+  <script src="./js/scripts.js"></script>
+</body>
+</html>
