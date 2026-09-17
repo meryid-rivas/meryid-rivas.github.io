@@ -15,7 +15,7 @@
         <img id="navAvatar" src="./assets/avatar.jpg" alt="Meryid Rivas" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid var(--accent);"/>
         <span style="font-weight:800;font-size:.9rem;color:var(--accent);letter-spacing:.5px;">Meryid Rivas</span>
       </a>
-      <ul class="nav-links">
+      <ul class="nav-links" id="navLinks">
         <li><a href="#about" data-i="nav_about">About</a></li>
         <li><a href="#skills" data-i="nav_skills">Skills</a></li>
         <li><a href="#experience" data-i="nav_exp">Experience</a></li>
@@ -29,8 +29,14 @@
           <button class="lang-btn" onclick="setLang('es')">ES</button>
         </div>
       </div>
+      <button class="nav-toggle" id="navToggle" onclick="toggleNavMenu()" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </nav>
+  <div class="nav-backdrop" id="navBackdrop" onclick="toggleNavMenu()"></div>
 
   <div class="up" onclick="scrollToTop()" title="Scroll to top">↑</div>
 
@@ -135,7 +141,7 @@
         <div class="exp-item">
           <div class="exp-header">
             <div class="exp-left"><div><div class="exp-company">Software Engineer Freelancer/Self-Employed</div></div></div>
-            <div style="display:flex;align-items:center;gap:10px;">
+            <div class="exp-right">
               <div class="exp-date">Sep 2025 – Now</div>
               <div class="exp-date">Remote</div>
             </div>
@@ -150,8 +156,8 @@
         </div>
         <div class="exp-item">
           <div class="exp-header">
-            <div class="exp-left"><div><div class="exp-company">Staff Software Engineer at Warner Bros. Discovery (CNN)</div><div class="exp-note" data-i="exp1_role">via Globant</div></div></div>
-            <div style="display:flex;align-items:center;gap:10px;">
+            <div class="exp-left"><div><div class="exp-company">Staff Software Engineer at Warner Bros. Discovery (CNN)</div><div class="exp-note">via Globant</div></div></div>
+            <div class="exp-right">
               <div class="exp-date">Apr 2023 – Jun 2025</div>
               <div class="exp-date">Remote</div>
             </div>
@@ -169,7 +175,7 @@
         <div class="exp-item">
           <div class="exp-header">
             <div class="exp-left"><div><div class="exp-company">Staff Software Engineer / Architect at Xepelin</div></div></div>
-            <div style="display:flex;align-items:center;gap:10px;">
+            <div class="exp-right">
               <div class="exp-date">Jul 2022 – Nov 2022</div>
               <div class="exp-date">Remote</div>
             </div>
@@ -186,7 +192,7 @@
         <div class="exp-item">
           <div class="exp-header">
             <div class="exp-left"><div><div class="exp-company">Lead Consultant / Architect at Thoughtworks</div></div></div>
-            <div style="display:flex;align-items:center;gap:10px;">
+            <div class="exp-right">
               <div class="exp-date">Sep 2021 – Mar 2022</div>
               <div class="exp-date">Remote</div>
             </div>
@@ -203,7 +209,7 @@
         <div class="exp-item">
           <div class="exp-header">
             <div class="exp-left"><div><div class="exp-company">Staff Software Developer & Architect at Jooycar</div></div></div>
-            <div style="display:flex;align-items:center;gap:10px;">
+            <div class="exp-right">
               <div class="exp-date">Dec 2018 – Jul 2021</div>
               <div class="exp-date">Remote</div>
             </div>

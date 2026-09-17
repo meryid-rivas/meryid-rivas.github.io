@@ -55,7 +55,6 @@ const T = {
     // ************************
     exp_tag:"Work History",
     exp_title:"<span>Experience</span>",
-    exp1_role:"Staff Software Engineer · via Globant · Remote, Santiago",
     exp1_1:"Architected a mission-critical Ticker Automation System replacing error-prone manual workflows with seamless CMS ↔ Viz Flowics integration for live broadcast.",
     exp1_2:"Engineered a high-availability serverless layer using AWS Lambda for real-time news data aggregation supporting live broadcasts.",
     exp1_3:"Defined full solution stack via AWS CloudFormation — Secrets Manager, CloudWatch observability, serverless resources.",
@@ -163,7 +162,6 @@ const T = {
     // ************************
     exp_tag:"Historial Laboral",
     exp_title:"<span>Experiencia</span>",
-    exp1_role:"Ingeniera de Software Staff · vía Globant · Remoto, Santiago",
     exp1_1:"Diseñé un sistema crítico de automatización de tickers reemplazando flujos manuales con integración CMS ↔ Viz Flowics para transmisión en vivo.",
     exp1_2:"Construí una capa serverless de alta disponibilidad con AWS Lambda para agregación de noticias en tiempo real.",
     exp1_3:"Definí el stack completo con AWS CloudFormation — Secrets Manager, observabilidad con CloudWatch, recursos serverless.",
@@ -235,6 +233,28 @@ function toggleTheme(){
   document.documentElement.setAttribute('data-theme', currentTheme);
   document.getElementById('themeBtn').textContent = currentTheme==='dark' ? '🌙' : '☀️';
 }
+
+function toggleNavMenu(){
+  const links=document.getElementById('navLinks');
+  const toggleBtn=document.getElementById('navToggle');
+  const backdrop=document.getElementById('navBackdrop');
+  const isOpen=links.classList.toggle('open');
+  toggleBtn.classList.toggle('open', isOpen);
+  toggleBtn.setAttribute('aria-expanded', isOpen);
+  backdrop.classList.toggle('open', isOpen);
+  document.body.style.overflow = isOpen ? 'hidden' : '';
+}
+
+document.addEventListener('DOMContentLoaded', ()=>{
+  const navLinks=document.getElementById('navLinks');
+  if(navLinks){
+    navLinks.querySelectorAll('a').forEach(a=>{
+      a.addEventListener('click', ()=>{
+        if(navLinks.classList.contains('open')) toggleNavMenu();
+      });
+    });
+  }
+});
 
 function toggle(header){
   const body=header.nextElementSibling, chev=header.querySelector('.exp-chevron');
