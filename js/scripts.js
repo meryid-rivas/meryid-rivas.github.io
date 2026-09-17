@@ -1,23 +1,35 @@
 const T = {
   en:{
-    nav_about:"About",nav_skills:"Skills",nav_exp:"Experience",nav_edu:"Education",nav_contact:"Contact",
+    // Navigation
+    // ************************
+    nav_about:"About",
+    nav_skills:"Skills",
+    nav_exp:"Experience",
+    nav_edu:"Education",
+    nav_contact:"Contact",
+    // ************************
+    // Section 'Hero'
+    // ************************
     hero_tag:"Open to full-time opportunities",
     hero_title:"Full-Stack Software Engineer (backend-heavy)",
-    hero_sub:"I'm seasoned building systems that actually hold up under pressure — from startup MVPs to scaleup full-product to mission-critical live broadcast infrastructure at CNN. I'm the kind of engineer who can jump from building a high-performance API to defining the cloud architecture for a new product, to mentoring a junior developer on their first collaboration.",
+    hero_sub:"I've 18+ years of experience building systems that actually hold up under pressure — from startup MVPs to scaleup full-product to mission-critical live broadcast infrastructure at CNN. I'm the kind of engineer who can jump from building a high-performance backend to defining the cloud architecture for a new product, to mentoring a junior developer on their first collaboration.",
     badge_distributed_systems:"Distributed Systems",
     badge_cloud:"Cloud-native Architecture",
     badge_event_driven:"Event-driven Architecture",
     badge_microservices:"Microservices",
     badge_ci_cd:"CI/CD Pipelines",
-    badge_remote:"Remote · Contractor or Employee",badge_loc:"Santiago, Chile 🇨🇱",
-    cta_contact:"Get in touch",cta_exp:"View Experience",cta_cv:"Download Resume",
-    stat_measure1:"18 years",
-    stat_measure2:"12 years",
-    stat1:"Experience",stat2:"Architecture-impact roles",stat3:"Transaction growth delivered",stat4:"Engineering velocity increase",
-    about_tag:"About",about_title:"<span>About me</span>",
-    about_p1:"I'm a Venezuelan software engineer living in Chile since 2017, with full legal residence. I've spent 18+ years building backend systems that actually hold up under pressure — from startup MVPs to mission-critical live broadcast infrastructure at CNN.",
-    about_p2:"My core stack is <strong>JavaScript/TypeScript and Node.js</strong>, but I think in systems. I'm the kind of engineer who can jump from writing a high-performance Rust service to defining the cloud architecture for a new product, to mentoring a junior dev — and enjoy all three.",
-    about_p3:"I've worked remotely for US-based teams for years. I'm looking for a <strong>full-time contractor or employee role</strong> where I can contribute at a senior/staff level — not just execute tickets, but help shape the technical direction.",
+    cta_contact:"Get in touch",
+    cta_exp:"View Experience",
+    cta_cv:"Open Resume",
+    stat_measure_1:"10+ years",
+    stat_1_1:"Working fully remote, in",
+    stat_1_2:"architecture-impact roles",
+    stat_2:"Transactions Growth",
+    stat_3:"Engineering velocity increase",
+    // ************************
+    // Section 'About'
+    // ************************
+    about_title:"<span>About me</span>",
     val1_t:"Full-cycle Ownership",val1_d:"From requirements and architecture through implementation, deployment, and production maintenance — with security and scalability built in.",
     val2_t:"Outcome-driven",val2_d:"I care about business impact, not just technology developed. Great architecture means nothing if it doesn't ship.",
     val3_t:"Great communication with different stakeholders",val3_d:"I'm a cross-functional collaborator. I translate between technical and non-technical, like product managers, languages fluently.",
@@ -26,10 +38,23 @@ const T = {
     val6_t:"Problem-driven over Tool-driven",val6_d:"I choose architecture and tools based on what moves the product forward, not what's trendy.",
     val7_t:"Team multiplier",val7_d:"I raise the baseline of teams around me — through architecture blueprints, delivery improvements or just being available to unblock people.",
     val8_t:"Adaptable across company sizes and stages",val8_d:"Wide experience across diverse company sizes, from MVPs at startups, to Full-scale Product at scale-ups to enterprise-scale systems at organizations like Warner Bros Discovery (CNN).",
-    skills_tag:"Skills",skills_title:"<span>Technical Expertise</span>",
-    sk1:"System Design",sk2:"Languages",sk3:"Data",sk4:"Storage",sk5:"Infrastructure & DevOps",sk6:"Cloud & Observability",
+    // ************************
+    // Section 'Skills'
+    // ************************
+    skills_tag:"Main Stack",
+    skills_title:"<span>Skills</span>",
+    sk1:"System Design",
+    sk2:"Programming Languages",
+    sk3:"Data Management",
+    sk4:"Storage",
+    sk5:"Infrastructure & DevOps",
+    sk6:"Cloud & Observability",
     skill_dist_systems:"Distributed Systems",skill_cloud_arch:"Cloud-native Architecture",skill_event_driven:"Event-Driven Architecture",skill_microservices:"Microservices",skill_ci_cd:"CI/CD Pipeline",skill_data_modeling:"Data Modeling",
-    exp_tag:"Work History",exp_title:"<span>Professional Experience</span>",
+    // ************************
+    // Section 'Experience'
+    // ************************
+    exp_tag:"Work History",
+    exp_title:"<span>Experience</span>",
     exp1_role:"Staff Software Engineer · via Globant · Remote, Santiago",
     exp1_1:"Architected a mission-critical Ticker Automation System replacing error-prone manual workflows with seamless CMS ↔ Viz Flowics integration for live broadcast.",
     exp1_2:"Engineered a high-availability serverless layer using AWS Lambda for real-time news data aggregation supporting live broadcasts.",
@@ -52,10 +77,11 @@ const T = {
     exp4_3:"Re-engineered core IoT ingestion engines using Rust and Event-Driven Microservices on AWS.",
     exp4_4:"Designed mission-critical data pipelines using AWS Kinesis, SNS, and SQS for real-time anomaly detection.",
     exp4_5:"Collaborated directly with CEO, CTO, and CPO to align technical roadmaps with product goals.",
+    // ************************
     // Section 'Education'
     // ************************
     edu_tag:"Credentials",
-    edu_title:"<span>Education & Certifications</span>",
+    edu_title:"<span>Education</span>",
     edu_badge_1:"Degree",
     edu_title_1:"Associate's Degree in Information Technology",
     edu_org_1:"Technological University Institute, IUT-RC \"Dr. Federico Rivero Palacios\"",
@@ -63,40 +89,55 @@ const T = {
     edu_title_2:"Technical Diploma in Information Technology",
     edu_org_2:"Technical & Commercial School \"Dr. Jesús Muñoz Tébar\"",
     edu_badge_3:"Course",
-    cert_title:"Certifications",
-    courses_title:"Courses",
+    edu_badge_4:"Certification",
     lang_tag:"Languages",
     lang_title:"Languages",
     lang_en:"English",
     lang_es:"Spanish",
     eng_level:"Professional Proficiency (B2/C1)",esp_level:"Native",
     // ************************
-    contact_tag:"Let's talk",contact_title:"<span>Get in Touch</span>",
-    contact_h3:"Open to new challenges.",
-    contact_p:"I thrive in distributed, high-ambiguity environments. If you're building something ambitious and need a senior engineer who can also think in systems — let's talk.",
+    // Section 'Contact'
+    // ************************
+    contact_title:"<span>Contact</span>",
+    contact_h3:"Let's get in touch!",
+    contact_p:"If you're building something ambitious and need a Senior or Staff Engineer who can think in systems and be accountable of end-to-end Software Development Life Cycle — let's talk!",
     cal_btn:"Book a call",
     form_title:"Send a message",form_name:"Name",form_email:"Email",form_msg:"Message",form_send:"Send Message",
     form_ok:"✓ Message sent! I'll get back to you soon.",form_err:"Something went wrong. Please try emailing me directly.",
+    // ************************
     footer:"Designed with <span>♥</span> · Meryid Rivas © 2025 · Santiago, Chile"
   },
   es:{
-    nav_about:"Sobre mí",nav_skills:"Habilidades",nav_exp:"Experiencia",nav_edu:"Educación",nav_contact:"Contacto",
+    // Navigation
+    // ************************
+    nav_about:"Sobre mí",
+    nav_skills:"Habilidades",
+    nav_exp:"Experiencia",
+    nav_edu:"Educación",
+    nav_contact:"Contacto",
+    // ************************
+    // Section 'Hero'
+    // ************************
     hero_tag:"Disponible para empleo de tiempo completo",
     hero_title:"Ingeniera de Software Full-Stack (con enfoque en backend)",
-    hero_sub:"Tengo amplia experiencia construyendo sistemas que soportan altos niveles de exigencia — desde MVPs en startups, pasando por productos copletamente funcionales para empresas en pleno escalamientohasta, hasta infraestructura crítica para corporaciones como CNN. Soy el tipo de ingeniera que puede pasar de escribir un servicio Rust de alto rendimiento a definir la arquitectura cloud de un nuevo producto, a mentorear a un dev junior.",
+    hero_sub:"Tengo 18 años experiencia construyendo sistemas que soportan altos niveles de exigencia — desde MVPs en startups, pasando por productos completamente funcionales para empresas en pleno escalamiento, hasta infraestructura crítica para corporaciones como CNN. Soy el tipo de ingeniera que puede pasar de construir un backend de alto rendimiento a definir la arquitectura cloud de un nuevo producto, a mentorear a un ingeniero junior.",
     badge_distributed_systems:"Sistemas Distribuidos",
     badge_cloud:"Arquitectura Nativa de la Nube",
     badge_event_driven:"Arquitectura Orientada a Eventos",
     badge_microservices:"Micro-servicios",
-    badge_ci_cd:"Integración y Despliegue Continuo",
-    cta_contact:"Contáctame",cta_exp:"Ver Experiencia",cta_cv:"Descargar CV",
-    stat_measure1:"18 años",
-    stat_measure2:"12 años",
-    stat1:"Experiencia",stat2:"Roles de Impacto en Arquitectura",stat3:"Crecimiento de transacciones",stat4:"Aumento de velocidad de equipo",
-    about_tag:"Sobre mí",about_title:"<span>Sobre mí</span>",
-    about_p1:"Soy una ingeniera de software venezolana viviendo en Chile desde 2017, con residencia legal definitiva. He pasado 18+ años construyendo sistemas backend que realmente aguantan la presión — desde MVPs de startups hasta infraestructura crítica de transmisión en vivo para CNN.",
-    about_p2:"Mi stack principal es <strong>JavaScript/TypeScript y Node.js</strong>, pero pienso en sistemas. Soy el tipo de ingeniería que puede pasar de escribir un servicio Rust de alto rendimiento a definir la arquitectura cloud de un nuevo producto, a mentorear a un dev junior — y disfrutar los tres.",
-    about_p3:"He trabajado en remoto para equipos en EE.UU. durante años. Busco un <strong>rol de tiempo completo como contratista o empleada</strong> donde pueda contribuir a nivel senior/staff — no solo ejecutar tickets, sino ayudar a definir la dirección técnica.",
+    badge_ci_cd:"Flujos CI/CD",
+    cta_contact:"Contáctame",
+    cta_exp:"Ver Experiencia",
+    cta_cv:"Abrir CV",
+    stat_measure_1:"10+ años",
+    stat_1_1:"Trabajando remoto, en",
+    stat_1_2:"Roles de Impacto en Arquitectura",
+    stat_2:"Crecimiento de transacciones",
+    stat_3:"Aumento de velocidad de equipo",
+    // ************************
+    // Section 'About'
+    // ************************
+    about_title:"<span>Sobre mí</span>",
     val1_t:"Responsabilidad del Ciclo Completo",val1_d:"Desde el levantamiento de requerimientos y diseño de arquitectura hasta la implementación, despliegue y mantenimiento en producción — con seguridad y escalabilidad incorporadas desde el diseño.",
     val2_t:"Orientado a Resultados",val2_d:"Me importa el impacto en el negocio, no solo la tecnología desarrollada. Una gran arquitectura no significa nada si no llega a producción.",
     val3_t:"Comunicación efectiva con distintos stakeholders",val3_d:"Soy un colaborador multifuncional (cross-functional). Traduzco con fluidez entre el lenguaje técnico y el no técnico, para comunicarme con interlocutores como los Gerentes de Producto.",
@@ -105,10 +146,23 @@ const T = {
     val6_t:"Priorizar el Problema sobre la Herramienta",val6_d:"Elijo arquitectura y herramientas según lo que hace avanzar al producto, no según lo que está de moda.",
     val7_t:"Potenciar Equipos",val7_d:"Elevo el nivel base de los equipos a mi alrededor — a través de blueprints de arquitectura, mejoras en la entrega, o simplemente estando disponible para desbloquear a otros.",
     val8_t:"Adaptable a empresas de cualquier tamaño y etapa",val8_d:"Amplia experiencia en compañías de diferentes tamaños, desde MVPs en startups, pasando por productos a escala completa en scale-ups, hasta sistemas empresariales en organizaciones como Warner Bros Discovery (CNN).",
-    skills_tag:"Habilidades",skills_title:"<span>Expertise Técnico</span>",
-    sk1:"Diseño de Sistemas",sk2:"Lenguajes",sk3:"Data",sk4:"Almacenamiento",sk5:"Infrastructura & DevOps",sk6:"La Nube & Observabilidad",
+    // ************************
+    // Section 'Skills'
+    // ************************
+    skills_tag:"Habilidades Principales",
+    skills_title:"<span>Habilidades</span>",
+    sk1:"Diseño de Sistemas",
+    sk2:"Lenguajes de Programación",
+    sk3:"Manejo de Data",
+    sk4:"Almacenamiento",
+    sk5:"Infrastructura & Operaciones",
+    sk6:"La Nube & Observabilidad",
     skill_dist_systems:"Sistemas Distribuidos",skill_cloud_arch:"Arquitectura Nativa de la Nube",skill_event_driven:"Arquitectura Orientada a Eventos",skill_microservices:"Micro-servicios",skill_ci_cd:"Integración y Despliegue Continuo",skill_data_modeling:"Modelado de Datos",
-    exp_tag:"Historial Laboral",exp_title:"<span>Experiencia Profesional</span>",
+    // ************************
+    // Section 'Experience'
+    // ************************
+    exp_tag:"Historial Laboral",
+    exp_title:"<span>Experiencia</span>",
     exp1_role:"Ingeniera de Software Staff · vía Globant · Remoto, Santiago",
     exp1_1:"Diseñé un sistema crítico de automatización de tickers reemplazando flujos manuales con integración CMS ↔ Viz Flowics para transmisión en vivo.",
     exp1_2:"Construí una capa serverless de alta disponibilidad con AWS Lambda para agregación de noticias en tiempo real.",
@@ -131,10 +185,11 @@ const T = {
     exp4_3:"Re-ingené motores IoT de ingesta usando Rust y Microservicios Event-Driven en AWS.",
     exp4_4:"Diseñé pipelines de datos críticos con AWS Kinesis, SNS y SQS para detección de anomalías en tiempo real.",
     exp4_5:"Colaboré directamente con CEO, CTO y CPO para alinear roadmaps técnicos con los objetivos de producto.",
+    // ************************
     // Section 'Education'
     // ************************
     edu_tag:"Credenciales",
-    edu_title:"<span>Educación & Certificaciones</span>",
+    edu_title:"<span>Educación</span>",
     edu_badge_1:"Título",
     edu_title_1:"Técnico Superior Universitario (TSU) en Informática",
     edu_org_1:"Instituto Universitario de Tecnología, IUT-RC \"Dr. Federico Rivero Palacios\"",
@@ -142,21 +197,23 @@ const T = {
     edu_title_2:"Técnico Medio en Informática",
     edu_org_2:"Escuela Técnica Comercial \"Dr. Jesús Muñoz Tébar\"",
     edu_badge_3:"Curso",
-    cert_title:"Certificaciones",
-    courses_title:"Cursos",
-    cert1:"AWS Certified Cloud Practitioner",
+    edu_badge_4:"Certificación",
     lang_tag:"Idiomas",
     lang_title:"Idiomas",
     lang_en:"Inglés",
     lang_es:"Español",
     eng_level:"Competencia Profesional (B2/C1)",esp_level:"Nativo",
     // ************************
-    contact_tag:"Hablemos",contact_title:"<span>¡Hablemos!</span>",
-    contact_h3:"Abierta a nuevos desafíos.",
-    contact_p:"Me desenvuelvo en entornos distribuidos y de alta ambigüedad. Si estás construyendo algo ambicioso y necesitas una ingeniera senior que también piensa en sistemas — conversemos.",
+    // Section 'Contact'
+    // ************************
+    contact_title:"<span>Contacto</span>",
+    contact_h3:"¡Hablemos!",
+    contact_p:"If you're building something ambitious and need a Senior or Staff Engineer who can think in systems and be accountable of end-to-end Software Development Life Cycle — let's talk!",
+    contact_p:"Si estás construyendo algo ambicioso y necesitas una Ingeniera Senior o Staff que piensa en sistemas y puede hacerse cargo del Ciclo completo de Desarrollo de Software — Hablemos!",
     cal_btn:"Agendar llamada",
     form_title:"Enviar mensaje",form_name:"Nombre",form_email:"Correo",form_msg:"Mensaje",form_send:"Enviar Mensaje",
     form_ok:"✓ ¡Mensaje enviado! Te responderé pronto.",form_err:"Algo salió mal. Por favor escríbeme directamente al correo.",
+    // ************************
     footer:"Diseñado con <span>♥</span> · Meryid Rivas © 2025 · Santiago, Chile"
   }
 };
